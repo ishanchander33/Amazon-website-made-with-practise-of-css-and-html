@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar{
+  height: 70px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navlogo{
+  height: 50px;
+  width: 100px;
+  margin-left: 5px;
+  /* align-items: center; */
+  /* display: flex; */
+}
+
+.logo{
+  background-image: url("amazonlogo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 100%;
+}
+.border{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+
+/* box1 and box 2 */
+.firstbox{
+  color: #cccccc;
+  font-size: 0.85rem;
+  /* position: relative;
+  left: 20px;
+*/
+margin-left: 24px;
+}
+.secbox{
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.location{
+  display: flex;
+  align-items: center;
+} 
+
+ /* box3 */
+.navsearch{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orange;
+  height: 40px;
+  width: 420px;
+  border-radius: 5px;
+  /* margin-left: 10px; */
+}
+.searchselect{
+  background-color: #f3f3f3;
+  width: 60px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.searchinput{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.searchicon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #0f1111;
+}
+.navsearch:hover{
+  border: 2px solid orange;
+}
+
+ /* box 4 */
+span{
+  font-size: 0.8rem;
+}
+.sec-nav{
+  font-weight: 700;
+}
+
+/* box5 */
+.navcart i {
+  font-size: 30px;
+}
+.navcart{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* panel */
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.panelops p {
+  display: inline;
+  margin-left: 40px;
+}
+.panelops{
+  width: 70%;
+  font-size: 0.85rem;
+}
+.paneldeals{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* hero section */
+.herosection{
+  background-image: url(amazone\ fes.jpg);
+  background-size: cover;
+  height: 400px;
+  justify-self: unset;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.heromsg{
+  height: 40px;
+  width: 80%;
+  background-color: white;
+  color: black;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.heromsg a {
+  color: #007185;
+}
+
+/* shopsection */
+.shopsection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(250, 112, 0);
+}
+.box{
+  height: 500px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+
+}
+.box1img{
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left:6rem ;
+}
+.box1content{
+  margin-left: 0.8rem;
+  margin-right: 1rem;
+}
+.box1content p {
+  color: #007185;
+  margin: 7rem;
+}
+.box1content h2{
+  margin-left: 6rem;
+}
+
+/* footer  */
+
+footer{
+  margin-top: 15px;
+}
+.footpanel1{
+  background-color: #37475a;
+  color:white ;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footpanel2{
+  background-color: #222f3d;
+  color: white;
+  height:400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 20px;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 15px;
+  color:#dddddd:
+}
+
+.footpanel3{
+  background-color: #222f3d;
+  height: 70px;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amzlogo2{
+  background-image: url("amzlogo2\ with\ 222back.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 100px;
+}
+
+.footpanel4{
+  background-color: #0f1111;
+  height: 100px;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.pages{
+  padding-top: 25px;
+}
+.copyright{
+  padding-top: 5px;
+}
